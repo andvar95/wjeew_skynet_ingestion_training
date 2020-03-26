@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="SkynetCli - run-job" type="Application" factoryName="Application">
+  <configuration default="false" name="SkynetCli - migrate-dq" type="Application" factoryName="Application">
     <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
       <pattern>
         <option name="PATTERN" value="com.datio.skynet.cli.*" />
@@ -8,7 +8,7 @@
     </extension>
     <option name="MAIN_CLASS_NAME" value="com.datio.skynet.cli.SkynetCli" />
     <option name="VM_PARAMETERS" value="" />
-    <option name="PROGRAM_PARAMETERS" value="run-job --config &lt;path&gt; --main &lt;mainClass&gt;" />
+    <option name="PROGRAM_PARAMETERS" value="migrate-dq --uuaa &lt;uuaa&gt; --extra-uuaas &lt;aabb,bbcc&gt; --force false" />
     <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
     <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
     <option name="ALTERNATIVE_JRE_PATH" />

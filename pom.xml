@@ -17,8 +17,8 @@
     <name>Parent fdev-ingestion</name>
 
     <properties>
-        <skynet-cli.version>T-1000.2</skynet-cli.version>
-        <skynet-maven-plugin.version>T-1000.2</skynet-maven-plugin.version>
+        <skynet-cli.version>T-1100.0</skynet-cli.version>
+        <skynet-maven-plugin.version>T-1100.0</skynet-maven-plugin.version>
         <skynet.country>mx</skynet.country>
         <skynet.governance.endpoint>http://datadictionary-pre.bbva.com</skynet.governance.endpoint>
     </properties>
