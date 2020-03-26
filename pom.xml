@@ -6,7 +6,7 @@
     <parent>
         <groupId>com.datio.skynet</groupId>
         <artifactId>skynet-parent</artifactId>
-        <version>T-1000.2</version>
+        <version>T-1100.0</version>
     </parent>
 
     <groupId>com.datio.fdev</groupId>
