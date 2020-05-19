@@ -19,8 +19,9 @@
     <properties>
         <skynet-cli.version>T-1100.1</skynet-cli.version>
         <skynet-maven-plugin.version>T-1100.1</skynet-maven-plugin.version>
-        <skynet.country>gl</skynet.country>
-        <skynet.governance.endpoint>http://datadictionary-pre.bbva.com</skynet.governance.endpoint>
+        <skynet.country>mx</skynet.country>
+        <skynet.governance.sophia.endpoint>http://datadictionary-pre.bbva.com</skynet.governance.sophia.endpoint>
+        <skynet.dataproc.endpoint>https://daas-hd2.work.mx.ether.igrupobbva</skynet.dataproc.endpoint>
     </properties>
 
   <modules>
