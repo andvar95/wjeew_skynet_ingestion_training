@@ -6,7 +6,7 @@
     <parent>
         <groupId>com.datio.skynet</groupId>
         <artifactId>skynet-parent</artifactId>
-        <version>T-1100.1</version>
+        <version>T-1200.0</version>
     </parent>
 
     <groupId>com.datio.fdev</groupId>
@@ -17,11 +17,12 @@
     <name>Parent fdev-ingestion</name>
 
     <properties>
-        <skynet-cli.version>T-1100.1</skynet-cli.version>
-        <skynet-maven-plugin.version>T-1100.1</skynet-maven-plugin.version>
+        <skynet-cli.version>T-1200.0</skynet-cli.version>
+        <skynet-maven-plugin.version>T-1200.0</skynet-maven-plugin.version>
         <skynet.country>mx</skynet.country>
         <skynet.governance.sophia.endpoint>http://datadictionary-pre.bbva.com</skynet.governance.sophia.endpoint>
         <skynet.dataproc.endpoint>https://daas-hd2.work.mx.ether.igrupobbva</skynet.dataproc.endpoint>
+        <skynet.governance.schema.version>v2</skynet.governance.schema.version>
     </properties>
 
   <modules>
