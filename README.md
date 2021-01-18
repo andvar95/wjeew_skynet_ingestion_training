@@ -67,3 +67,4 @@ followed by the goal you want to execute:
  21. Report deployment status: ``mvn skynet:report<option>``.
  22. Use admin options (see help Maven command) ``mvn skynet:admin-<option>``.
  23. Get **skynet-maven-plugin** help and usage: ``mvn skynet:help``.
+
