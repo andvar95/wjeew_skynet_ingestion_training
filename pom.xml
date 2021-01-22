@@ -21,8 +21,7 @@
         <skynet-maven-plugin.version>T-1300.0-PR64-SNAPSHOT</skynet-maven-plugin.version>
         <skynet.country>mx</skynet.country>
         <skynet.governance.sophia.endpoint>http://datadictionary-pre.bbva.com</skynet.governance.sophia.endpoint>
-        <skynet.dataproc.endpoint>https://daas-hd2.work.mx.ether.igrupobbva</skynet.dataproc.endpoint>
-        <skynet.governance.schema.version>v2</skynet.governance.schema.version>
+        <skynet.governance.schema.version>v3</skynet.governance.schema.version>
     </properties>
 
   <modules>
