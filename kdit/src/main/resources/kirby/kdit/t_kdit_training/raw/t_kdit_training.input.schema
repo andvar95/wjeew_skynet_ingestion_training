@@ -1,0 +1,58 @@
+{
+  "namespace": "kdit",
+  "name": "t_kdit_training",
+  "doc": "Tabla de pruebas",
+  "database": "raw",
+  "storageZone": "Rawdata",
+  "storageType": "HDFS-Avro",
+  "physicalPath": "/data/raw/kdit/data/t_kdit_training",
+  "objectVersion": "1.0.0",
+  "type": "record",
+  "fields": [{
+    "name": "account_id",
+    "type": "string",
+    "logicalFormat": "NUMERIC BIG",
+    "deleted": false,
+    "metadata": false,
+    "default": ""
+  }, {
+    "name": "other_information_desc",
+    "type": ["string", "null"],
+    "logicalFormat": "ALPHANUMERIC(50)",
+    "deleted": false,
+    "metadata": false,
+    "default": ""
+  }, {
+    "name": "current_balance_amount",
+    "type": ["string", "null"],
+    "logicalFormat": "DECIMAL(7,2)",
+    "deleted": false,
+    "metadata": false,
+    "default": "",
+    "format": "7,2",
+    "locale": "mx"
+  }, {
+    "name": "total_balance_amount",
+    "type": ["string", "null"],
+    "logicalFormat": "NUMERIC LARGE",
+    "deleted": false,
+    "metadata": false,
+    "default": ""
+  }, {
+    "name": "total_payment_number",
+    "type": ["string", "null"],
+    "logicalFormat": "NUMERIC SHORT",
+    "deleted": false,
+    "metadata": false,
+    "default": ""
+  }, {
+    "name": "request_date",
+    "type": "string",
+    "logicalFormat": "TIMESTAMP",
+    "deleted": false,
+    "metadata": true,
+    "default": "",
+    "format": "yyyy-MM-dd",
+    "locale": "mx"
+  }]
+}
