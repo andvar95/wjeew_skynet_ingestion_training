@@ -7,7 +7,7 @@
     <parent>
         <groupId>com.datio.skynet</groupId>
         <artifactId>skynet-parent</artifactId>
-        <version>T-1300.2</version>
+        <version>T-1300.3</version>
     </parent>
 
     <groupId>com.datio.fdev</groupId>
@@ -18,8 +18,8 @@
     <name>Parent fdev-ingestion</name>
 
     <properties>
-        <skynet-cli.version>T-1300.2</skynet-cli.version>
-        <skynet-maven-plugin.version>T-1300.2</skynet-maven-plugin.version>
+        <skynet-cli.version>T-1300.3</skynet-cli.version>
+        <skynet-maven-plugin.version>T-1300.3</skynet-maven-plugin.version>
         <skynet.country>mx</skynet.country>
         <skynet.governance.sophia.endpoint>http://datadictionary-pre.bbva.com</skynet.governance.sophia.endpoint>
         <skynet.governance.schema.version>v3</skynet.governance.schema.version>
