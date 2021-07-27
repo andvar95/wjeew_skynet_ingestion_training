@@ -1,0 +1,14 @@
+{
+    "_id" : "kdit-mx-krb-inm-kditcertonlinetwop-01",
+    "description" : "Job kdit-mx-krb-inm-kditcertonlinetwop-01 created with Skynet.",
+    "kind" : "processing",
+    "params" : {
+        "artifactUrl" : "${repository.endpoint}/spark-global-libs-release-local/com/datio/kirby/kirby-ingestion/${process.version}/kirby-ingestion-${process.version}-jar-with-dependencies.jar",
+        "configUrl" : "${repository.endpoint}/${repository.repo}/kirby/mx/kdit/master/t_kdit_certonlinetwo/${version}/t_kdit_certonlinetwo.conf",
+        "mainClass" : "com.datio.kirby.Launcher",
+        "sparkHistoryEnabled" : "true"
+    },
+    "runtime" : "spark:2.2.1",
+    "size" : "XXS",
+    "streaming" : false
+}
