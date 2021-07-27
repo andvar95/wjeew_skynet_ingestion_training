@@ -1,0 +1,43 @@
+{
+  "namespace": "kdit",
+  "name": "t_kdit_certonlineone",
+  "doc": "Objeto para el curso de certificacion en ingesta",
+  "database": "master",
+  "storageZone": "Masterdata",
+  "storageType": "HDFS-Parquet",
+  "physicalPath": "/data/master/kdit/data/training/t_fdev_certonlineone",
+  "securityLevel": "L1",
+  "type": "record",
+  "fields": [{
+    "name": "sequential_policy_id",
+    "type": "decimal(22)",
+    "logicalFormat": "DECIMAL(22)",
+    "deleted": false,
+    "metadata": false,
+    "default": 0.0,
+    "locale": "mx"
+  }, {
+    "name": "policy_id",
+    "type": "string",
+    "logicalFormat": "ALPHANUMERIC(18)",
+    "deleted": false,
+    "metadata": false,
+    "default": ""
+  }, {
+    "name": "finanzia_policy_origin_type",
+    "type": ["string", "null"],
+    "logicalFormat": "ALPHANUMERIC(2)",
+    "deleted": false,
+    "metadata": false,
+    "default": ""
+  }, {
+    "name": "load_date",
+    "type": ["timestamp", "null"],
+    "logicalFormat": "TIMESTAMP",
+    "deleted": false,
+    "metadata": false,
+    "default": "",
+    "format": "yyyy-MM-dd HH:mm:ss.SSSSSS",
+    "locale": "mx"
+  }]
+}

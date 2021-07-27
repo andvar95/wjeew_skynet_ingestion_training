@@ -1,0 +1,42 @@
+{
+  "namespace": "kdit",
+  "name": "t_kdit_certonlineone",
+  "doc": "Objeto para la certificacion de ingesta",
+  "database": "raw",
+  "storageZone": "Rawdata",
+  "storageType": "HDFS-Avro",
+  "physicalPath": "/data/raw/kdit/data/training/t_kdit_certonlineone",
+  "type": "record",
+  "fields": [{
+    "name": "sequential_policy_id",
+    "type": "string",
+    "logicalFormat": "DECIMAL(22)",
+    "deleted": false,
+    "metadata": false,
+    "default": "",
+    "locale": "mx"
+  }, {
+    "name": "policy_id",
+    "type": "string",
+    "logicalFormat": "ALPHANUMERIC(18)",
+    "deleted": false,
+    "metadata": false,
+    "default": ""
+  }, {
+    "name": "finanzia_policy_origin_type",
+    "type": ["string", "null"],
+    "logicalFormat": "ALPHANUMERIC(2)",
+    "deleted": false,
+    "metadata": false,
+    "default": ""
+  }, {
+    "name": "load_date",
+    "type": ["string", "null"],
+    "logicalFormat": "TIMESTAMP",
+    "deleted": false,
+    "metadata": false,
+    "default": "",
+    "format": "yyyy-MM-dd HH:mm:ss.SSSSSS",
+    "locale": "mx"
+  }]
+}
