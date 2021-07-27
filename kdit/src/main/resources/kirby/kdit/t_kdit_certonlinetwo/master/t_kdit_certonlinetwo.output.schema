@@ -1,0 +1,43 @@
+{
+  "namespace": "kdit",
+  "name": "t_kdit_certonlinetwo",
+  "doc": "Objeto para entrenamiento de ingesta",
+  "database": "master",
+  "storageZone": "Masterdata",
+  "storageType": "HDFS-Parquet",
+  "physicalPath": "/data/master/kdit/data/training/t_fdev_certonlinetwo",
+  "partitions": ["cutoff_date"],
+  "securityLevel": "L1",
+  "type": "record",
+  "fields": [{
+    "name": "cutoff_date",
+    "type": ["date", "null"],
+    "logicalFormat": "DATE",
+    "deleted": false,
+    "metadata": false,
+    "default": "",
+    "format": "yyyy-MM-dd",
+    "locale": "mx"
+  }, {
+    "name": "customer_id",
+    "type": ["string", "null"],
+    "logicalFormat": "ALPHANUMERIC(8)",
+    "deleted": false,
+    "metadata": false,
+    "default": ""
+  }, {
+    "name": "segment_id",
+    "type": ["string", "null"],
+    "logicalFormat": "ALPHANUMERIC(200)",
+    "deleted": false,
+    "metadata": false,
+    "default": ""
+  }, {
+    "name": "subsegment_id",
+    "type": ["string", "null"],
+    "logicalFormat": "ALPHANUMERIC(38)",
+    "deleted": false,
+    "metadata": false,
+    "default": ""
+  }]
+}
