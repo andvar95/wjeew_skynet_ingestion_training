@@ -1,0 +1,42 @@
+{
+  "namespace": "kdit",
+  "name": "t_kdit_certonlinethree",
+  "doc": "Objeto para el curso de ingesta",
+  "database": "raw",
+  "storageZone": "Rawdata",
+  "storageType": "HDFS-Avro",
+  "physicalPath": "/data/raw/kdit/data/training/t_kdit_certonlinethree",
+  "partitions": ["cutoff_date"],
+  "type": "record",
+  "fields": [{
+    "name": "cutoff_date",
+    "type": ["string", "null"],
+    "logicalFormat": "DATE",
+    "deleted": false,
+    "metadata": false,
+    "default": "",
+    "format": "yyyy-MM-dd",
+    "locale": "mx"
+  }, {
+    "name": "customer_id",
+    "type": "string",
+    "logicalFormat": "ALPHANUMERIC(8)",
+    "deleted": false,
+    "metadata": false,
+    "default": ""
+  }, {
+    "name": "customer_name",
+    "type": ["string", "null"],
+    "logicalFormat": "ALPHANUMERIC(20)",
+    "deleted": false,
+    "metadata": false,
+    "default": ""
+  }, {
+    "name": "first_surname_name",
+    "type": ["string", "null"],
+    "logicalFormat": "ALPHANUMERIC(20)",
+    "deleted": false,
+    "metadata": false,
+    "default": ""
+  }]
+}
